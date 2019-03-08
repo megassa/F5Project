@@ -7,7 +7,7 @@
   vars:
     provider:
       password: '@stellia123'
-      server: {{ inventory_hostname }}
+      server: "{{ inventory_hostname }}"
       user: admin
       validate_certs: no
       server_port: 443
