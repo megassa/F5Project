@@ -3,6 +3,9 @@
 - name: Create a VIP, pool and pool members
   hosts: bigips
   connection: local
+  
+  roles:
+    - role: f5devcentral.f5ansible
 
   tasks:
     - name: Create a pool
